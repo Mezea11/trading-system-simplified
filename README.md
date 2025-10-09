@@ -14,5 +14,5 @@ Users can:
 
 ### Run commands
 
-**dotnet build** <br>
-**dotnet run**
+- **dotnet build**
+- **dotnet run**
