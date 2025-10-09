@@ -272,7 +272,6 @@
         Pause();
     }
 
-    // --- BE DEN TA BORT HELPERS SOM KAN SE LITE FÖR OÄKTA UT, EXEMPELVIS EQUALSIGNORECASE OCH PAUSE, SE OM DU VILL HA KVAR FINDITEM/FINDTRADE. DET GÅR ATT SÄTTA IN SOM LOOPAR I SYSTEMET ---
     static Item FindItemById(int id)
     {
         for (int i = 0; i < Items.Count; i++) if (Items[i].Id == id) return Items[i];
